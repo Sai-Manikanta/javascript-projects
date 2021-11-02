@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+div {
+	max-width: 300px;
+	margin: 0 auto;
+	padding: 20px;
+}
+img {
+	display: block;
+	width: 100%;
+}
+#on-btn,
+#off-btn {
+	border: 0;
+	padding: 10px 25px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+#off-btn {
+	float: right;
+}
