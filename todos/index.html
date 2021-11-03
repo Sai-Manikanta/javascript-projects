@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/2d0e15a4cc.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-blue-500 text-white">
+    <div class="max-w-xl mx-auto px-6">
+
+        <h1 class="py-5 text-center text-5xl font-black tracking-wide">
+            Todo List
+        </h1>
+
+        <form>
+            <input type="text" placeholder="Search todos" class="w-full px-3 py-2 text-black rounded search">
+        </form>
+
+        <ul class="mt-8 space-y-1 text-blue-800 list">
+            <li class="flex items-center bg-blue-300 b-0 rounded">
+                <p class="flex-grow px-3">Plat mariokart</p>
+                <i class="far fa-trash-alt p-3 text-xl cursor-pointer delete"></i>
+            </li>
+            <li class="flex items-center bg-blue-300 b-0 rounded">
+                <p class="flex-grow px-3">Drink boost</p>
+                <i class="far fa-trash-alt p-3 text-xl cursor-pointer delete"></i>
+            </li>
+            <li class="flex items-center bg-blue-300 b-0 rounded">
+                <p class="flex-grow px-3">Go to mars and brink apples</p>
+                <i class="far fa-trash-alt p-3 text-xl cursor-pointer delete"></i>
+            </li>
+        </ul>
+
+        <p class="mt-6 text-center text-lg">Add a new todo...</p>
+        <form class="mt-2 add-form">
+            <input type="text" name="todo" placeholder="Add todo" class="w-full px-3 py-2 text-black rounded">
+        </form>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
