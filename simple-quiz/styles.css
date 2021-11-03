@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+		sans-serif;
+}
+h1 {
+	text-align: center;
+	padding: 50px 0px;
+	font-size: 3rem;
+	color: dodgerblue;
+}
+.quiz-container {
+	background-color: dodgerblue;
+	padding: 40px;
+	color: #fff;
+}
+form > div {
+	margin: 25px 0px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #fff;
+}
+form > div:first-child {
+	border-top: 1px solid #fff;
+	padding-top: 25px;
+}
+form > div > div {
+	margin-top: 10px;
+}
+#score {
+	text-align: center;
+	padding: 20px 0;
+	display: none;
+}
+.score-number {
+	font-size: 4rem;
+}
+[type="submit"] {
+	padding: 8px 30px;
+	border: 0;
+	color: dodgerblue;
+	background-color: #fff;
+	border-radius: 3px;
+	font-size: 1.4rem;
+}
