@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-gray-100">
+
+    <div class="max-w-sm my-8 mx-auto text-center text-gray-600 p-8">
+        <h1 class="text-4xl">
+            Ninja Weather
+        </h1>
+        <p class="mt-4">
+            Enter a location for weather information
+        </p>
+        <form>
+            <input type="text" name="city" class="w-full mt-2 py-1 px-2 shadow" placeholder="Enter City">
+        </form>
+
+        <div class="mt-6 bg-white tracking-wider pb-1 card hidden">
+            <img src="http://via.placeholder.com/300" alt="weather" class="w-full">
+            <img src="img/icons/13.svg" alt="weather icons" class="border mx-auto bg-gray-100 rounded-full relative -top-14 -mb-14">
+            <h2 class="mt-4 text-xl">CITY NAME</h2>
+            <p class="mt-1 text-sm">WEATHER CONDITION</p>
+            <p class="my-5 text-4xl tracking-widest font-extralight">TEMP &#176;C</p>
+        </div>
+    </div>
+
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
